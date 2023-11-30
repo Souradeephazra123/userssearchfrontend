@@ -1,0 +1,11 @@
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.container .profile_div img {
+  max-width: 56px;
+  height: auto;
+  border-radius: 50%;
+  border: 1px solid black;
+}

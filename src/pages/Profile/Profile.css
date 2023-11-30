@@ -1,0 +1,22 @@
+/* .container{
+    width: 100%;
+    height: 100vh;
+} */
+
+.card-profile-stats img {
+  max-width: 86px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+/* .card-email img{
+    max-width: 20px;
+} */
+
+.email {
+  color: rgb(222, 121, 94);
+}
+.location{color: blue;}
+
+.calender{
+    color: rgb(123, 17, 150)
+}

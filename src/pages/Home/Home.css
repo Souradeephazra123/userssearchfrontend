@@ -1,0 +1,53 @@
+.export_btn,
+.search_btn {
+  background-color: #479c88;
+  border: none;
+  color: rgb(220, 219, 219);
+}
+.export_btn:hover,
+.search_btn:hover {
+  background-color: #1f856d;
+}
+
+.dropdown_btn {
+  background: none !important;
+  border: none;
+  color: blue;
+  font-size: 20px;
+}
+.dropdown_btn {
+  color: blue !important;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    width: 100%;
+    height: 100vh;
+  }
+  .useful1 {
+    position: absolute;
+    top: 22%;
+    left: 5%;
+    transform: scale(0.7);
+  }
+  .useful2 {
+    position: absolute;
+    top: 22%;
+    left: 35%;
+    transform: scale(0.7);
+  }
+  .useful3 {
+    position: absolute;
+    top: 22%;
+    right: 5%;
+    transform: scale(0.7);
+  }
+  .filter_div {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+  }
+}
